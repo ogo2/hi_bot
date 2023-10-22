@@ -616,11 +616,11 @@ button {
 .contact .main_form .textarea {
      margin-bottom: 25px;
      padding: 0px 19px;
-     color: #999999 !important;
+     color: #0c0f38;
      width: 100%;
      border: #fff solid 1px;
      border-radius: 15px;
-     padding-top: 38px;
+     padding-top: 25px;
      background: #fff;
 }
 
@@ -716,3 +716,18 @@ button {
 
 /** end footer **/
 
+.ui-slider-range{
+     background-color: rgba(245,186,255);
+}
+/* .lol_server{
+     cursor: pointer;
+}
+.lol_server:hover {
+     background-color: #0c0f38;
+     transition: ease-in all 0.5s;
+     color: #fdd430;
+     border-radius: none;
+   }
+.lol_server>.f:hover{
+     color: #fff;
+} */
