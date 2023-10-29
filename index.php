@@ -155,10 +155,10 @@
                   <div class="web_hosting">
                      <figure><img style="width: 100 px; height: 350px;" src="images/robotag.svg" alt="#"/></figure>
                      <p>Команда разработчиков Hi Bot-это профессионалы с более чем трех летним опытом разработки Telegram-ботов,которые будут 
-                        работать над вашим проектом отстадии идеи до стадии реализациии продвижения. С помощью данной технологии, вы сможите автоматизировать бизнес-процессы.
+                        работать над вашим проектом отстадии идеи до стадии запуска на сервере. С помощью данной технологии, вы сможите автоматизировать бизнес-процессы.
                         Мы создаем ботов для вас и получаем удовольствие от процесса их создания. 
                         С помощью нас, вы сможите автоматизировать бизнес-процессы.
-                        Мы тестируем все функции наших ботов на различных нестандартных данных,чтобы не было "сюрпризов" при выпуске бота.
+                        Мы тестируем все функции наших ботов на различных нестандартных данных,чтобы не было "сюрпризов" при развертывание проекта.
                         По этим причинам мы считаем, что наш сервис заслуживает вашего внимания!</p>
                      <a href="#why">Узнать стоимость</a>
                   </div>
@@ -429,7 +429,7 @@
             </div>
             <div class="row">
                <div class="col-md-6 offset-md-3 ">
-                  <form class="main_form" action='../functions.php' method='post' style="box-shadow: 0 0 45px rgba(245,186,255,0.5);margin-bottom: 60px;">
+                  <form class="main_form" action='vender/functions.php' method='post' style="box-shadow: 0 0 45px rgba(245,186,255,0.5);margin-bottom: 60px;">
                      <div class="row">
                         
                         <div class="col-sm-12">
@@ -453,6 +453,10 @@
                         <div class="col-sm-12">
                            <label style="color:#fff;" class="form-label">Номер телефона</label>
                            <input type="text" required style="color:#0c0f38;" class="contactus form-control" id="phone" name='phone_user' placeholder="+7 (___) ___-____">
+                        </div>
+                        <div class="col-sm-12">
+                           <label for="exampleInputEmail1" style="color:#fff;" class="form-label">Telegram</label>
+                           <input class="contactus" style="color:#0c0f38;" placeholder="@example" type="text" name="telegramm_user">
                         </div>
                         <div class="col-sm-12">
                            <label for="exampleInputEmail1" style="color:#fff;" class="form-label">Кратко опишите ваш проект</label>
